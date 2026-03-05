@@ -1,13 +1,5 @@
 # 🏥 Medical Insurance Cost Predictor
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue?style=flat-square&logo=python)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-orange?style=flat-square&logo=scikit-learn)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
-
-A complete end-to-end **regression ML pipeline** to predict individual medical insurance charges based on patient demographics and health indicators. Covers the full data science workflow from EDA to model deployment.
-
----
-
 ## 🎯 Problem Statement
 
 Medical insurance costs vary widely across individuals. This project builds a regression model to predict annual insurance charges using features like age, BMI, smoking status, and region — enabling insurers and individuals to estimate costs accurately.
@@ -38,12 +30,6 @@ Medical insurance costs vary widely across individuals. This project builds a re
 
 ## 🚀 Quick Start
 
-```bash
-git clone https://github.com/YOUR_USERNAME/medical-insurance-predictor.git
-cd medical-insurance-predictor
-pip install -r requirements.txt
-```
-
 ### Run the full pipeline
 ```bash
 python train.py
@@ -61,28 +47,6 @@ jupyter notebook notebook.ipynb
 
 ---
 
-## 🗂️ Project Structure
-
-```
-medical-insurance-predictor/
-│
-├── train.py             # Full ML pipeline (EDA → Train → Evaluate → Save)
-├── predict.py           # Inference script for new patients
-├── notebook.ipynb       # Step-by-step Jupyter walkthrough
-├── requirements.txt     # Dependencies
-├── README.md
-│
-├── models/              # Saved model files (generated after training)
-│   ├── best_model.pkl
-│   └── feature_names.pkl
-│
-└── outputs/             # Generated plots (generated after training)
-    ├── eda_plots.png
-    ├── model_evaluation.png
-    └── model_comparison.png
-```
-
----
 
 ## 🔍 Key Findings
 
