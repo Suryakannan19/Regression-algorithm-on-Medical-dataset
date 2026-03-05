@@ -64,8 +64,4 @@ jupyter notebook notebook.ipynb
 - **matplotlib / seaborn** — EDA visualizations
 - **joblib** — Model serialization
 
----
 
-## 📄 License
-
-MIT License
